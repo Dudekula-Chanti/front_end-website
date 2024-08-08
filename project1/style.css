@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(178, 227, 234);
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(181, 228, 223);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+#navpart1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#nav h3{
+    font-size: 15px;
+    border: 1.5px solid #000;
+    font-weight: 550;
+    padding: 5px 10px;
+    border-radius: 50px;
+
+}
+
+#nav i{
+    font-size: 17px;
+    border: 1.8px solid #000;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 50px;
+
+}
+
+#nav h1{
+    font-weight: 420;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#nav button{
+     padding: 5px 10px; 
+     border: 1.5px solid #000;
+     border-radius: 50px;
+     font-size: 15px;
+     font-weight: 500;
+
+}
+#btn2{
+    border: none;
+    color: white;
+    background-color: orangered;
+   
+}
+#center{
+    
+    font-size: 110px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+
+}
+
+img{
+    height: 380px;
+    width: 250px;
+    object-position: top;
+    object-fit: cover;
+    border-radius: 23px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%,-50%);
+    
+    
+    
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+
+#img2{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#img4{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+
+#bottom{
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    font-size: 15px;
+}
+
+
+#social{
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
+
+#last{
+    position: absolute;
+    bottom: 1.5%;
+    right: 2%;
+}
+
